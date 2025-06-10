@@ -2,3 +2,6 @@
 
 점프 투 파이썬으로 슥 봐보기
 https://wikidocs.net/1418
+
+# algorithm with Python
+# pyQt5 ( Python System Framework )
