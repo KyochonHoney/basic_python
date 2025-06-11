@@ -23,6 +23,11 @@
       <height>481</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
     <property name="plainText">
      <string/>
     </property>
@@ -148,6 +153,9 @@
   <action name="action_find">
    <property name="text">
     <string>찾기 </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
    </property>
   </action>
   <action name="action_next_find">

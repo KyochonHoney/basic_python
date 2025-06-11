@@ -13,16 +13,6 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QPlainTextEdit" name="plainTextEdit">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>20</y>
-     <width>231</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_findstr">
    <property name="geometry">
     <rect>
@@ -36,7 +26,7 @@
     <string>찾을 내용</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_">
+  <widget class="QPushButton" name="pushButton_findNext">
    <property name="enabled">
     <bool>false</bool>
    </property>
@@ -75,7 +65,7 @@
     <string>취소</string>
    </property>
   </widget>
-  <widget class="QCheckBox" name="checkBox">
+  <widget class="QCheckBox" name="checkBox_CaseSensitive">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -100,7 +90,7 @@
    <property name="title">
     <string>방향</string>
    </property>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QRadioButton" name="radioButton_down">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -118,7 +108,7 @@
      <string>아래로</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
+   <widget class="QRadioButton" name="radioButton_up">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -131,6 +121,16 @@
      <string>위로</string>
     </property>
    </widget>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
   </widget>
  </widget>
  <resources/>
